@@ -1,5 +1,24 @@
 # Eliza
 
+## System Requirements
+
+- Python 3.12 or higher
+- Local API server running on port 5000
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Start the Local API Server
+
+```bash
+python api_call.py
+```
+
+The API will be available at `http://localhost:5000`.
+
 ## Edit the character files
 
 Open `src/character.ts` to modify the default character. Uncomment and edit.
@@ -44,6 +63,7 @@ TWITTER_EMAIL="your@email.com"
 ```bash
 pnpm i && pnpm start
 ```
+
 Note: this requires node to be at least version 22 when you install packages and run the agent.
 
 ## Run with Docker
