@@ -13,12 +13,12 @@ services:
     - ./data:/app/data
     - ./characters:/app/characters
     environment:
-    - GOOGLE_GENERATIVE_AI_API_KEY=AIzaSyCTL22xpBFNXfyz13zn6dEPqc3tpWDttbI
+    - GOOGLE_GENERATIVE_AI_API_KEY=
     - GROQ_API_KEY=
     - TWITTER_DRY_RUN=false
-    - TWITTER_USERNAME=chillguy0980
-    - TWITTER_PASSWORD=Vikas@ant30
-    - TWITTER_EMAIL=vikas.adhikari@antiersolutions.com
+    - TWITTER_USERNAME=
+    - TWITTER_PASSWORD=
+    - TWITTER_EMAIL=
     - POST_INTERVAL_MIN=1
     - POST_INTERVAL_MAX=3
     - OPENROUTER_API_KEY=

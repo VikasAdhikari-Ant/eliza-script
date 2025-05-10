@@ -52,12 +52,6 @@ def update_compose_env_vars(data, character_filename):
     return True, "docker-compose.yml updated successfully"
 
 
-# data = {
-#     "TWITTER_USER":"chillguy0980",
-#     "TWITTER_PASSWORD":"Vikas@ant30",
-#     "TWITTER_EMAIL":"vikas.adhikari@antiersolutions.com"
-# }
-
 # update_compose_env_vars(data)
 
 @app.route('/update-compose', methods=['POST'])
